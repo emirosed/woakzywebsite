@@ -166,40 +166,8 @@ body, html {
         <h3 class="w3-center">TWITCH STREAM</h3>
         <p class="w3-center"><em>You can support me by following and subscribing to me on Twitch!</em></p><br>
 
-   <a href="#" class="twitch-widget" id="twitch-widget" target="_blank"></a>
-      
-      <script>
-       (function() {
-  var user_name, api_key, twitch_widget;
-
-  user_name = "waokzy";
-  api_key = "5j0r5b7qb7kro03fvka3o8kbq262wwm";
-  twitch_widget = $("#twitch-widget");
-
-  twitch_widget.attr("href", "https://twitch.tv/woakzy";
-
-  $.getJSON(
-    "https://api.twitch.tv/woakzy/streams/" +
-      user_name +
-      "?client_id=" +
-      api_key +
-      "&callback=?",
-    function(data) {
-      if (data.stream) {
-        twitch_widget.html(
-          "<span class='online'></span> Online! Playing: " +
-            data.stream.game +
-            "<span class='viewers'>Viewers: " +
-            data.stream.viewers +
-            "</span>"
-        );
-      } else {
-        twitch_widget.html("<span class='offline'></span> Offline");
-      }
-    }
-  );
-})();
-      </script>
+      <script> <blockquote class="embedly-card"><h4><a href="http://twitch.tv/woakzy">Woakzy - Twitch</a></h4><p>Welcome to Woakzy's channel on Twitch. Watch them stream Fortnite and other content live and join the community!</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
     
 
 <!-- Container (Contact Section) -->
