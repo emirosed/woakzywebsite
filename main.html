@@ -192,23 +192,27 @@ body, html {
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: woakzy.management@gmail.com<br>
       </div>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
-        </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
+      
+      <form method="post" action="send_mail.php">
+        <p>
+          <label>First Name
+            <input type="text" name="first_name" required>
+          </label> 
+        </p>
+        <p>
+          
+          <label>Email 
+            <input type="email" name="email_address">
+          </label>
+        </p>
+        <p>
+          
+          <label>Comments
+            <textarea name="comments" maxlength="500"></textarea>
+          </label>
+        </p>
+        <p><button>Submit the form</button></p>
       </form>
-    </div>
-  </div>
-</div>
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
