@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px" id="home">
+  <img class="w3-image" src="woakzymainback2.jpg" alt="woakster" width="1500" height="700">
+      <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">WOAKZY</span>
+  </div>
+  <div class="w3-display-middle" style="width:65%">
+  </div>
+</header>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>I play games.</em></p>
+  <p>My name is Mitch King, but around the Internet I go by Woakzy. Video games haven't always been a part of my life. So first of all, I want to give some insight on who I am and how I came to have a passion to compete in esports.</p>
+
+<p>At a young age I discovered Hockey. I still play today, and this team sport is where I developed my competitive spirit. This hunger to compete was only magnified when I first got introduced to esports and competitive gaming after stumbling upon large Twitch streamers like Ninja and TSM Myth. I saw them and thought of how cool it would be to stream like them when I got older, but then I started to see younger streamers appear and grow rapidly in popularity. After seeing the feedback and support from fans that younger and newer streamers received, I wanted to follow suit, but add my unique personality and style to the mix. Although I am young that doesn't limit me. In fact, I think it is beneficial that I've started younger as it allows me to build team and communication skills and become a better player and content creator. I am just beginning to make it into the public eye as I am competing in more tournaments and beginning my journey in esports as a legitimate competitor. My hope is to make it to a professional level.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large"><br>
+        <a href="https://www.twitch.tv/woakzy">
+      <img src="woakzysetup.jpg" class="w3-round w3-image" alt="setup" width="500" height="333">
+        </a>
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>"When I first met Woakzy, I thought, 'Now this is a streamer with energy and a lot of potential. He's young and has an amazing sense of how to engage with an audience in a unique way that keeps them coming back to watch his streams everyday.' Woakzy can frequently be caught stating, 'We thoomin,' (his unique phrase to indicate excitement that is often mirrored in comments or live chat by his viewers) after winning a match, beating a record, or hitting an insane trick-shot. This seemingly silly thing speaks volumes to who he is as a person, a player, and a content creator. It shows his ability to creatively interact with the gaming community and find unique ways to let people know that he is a welcoming person who likes to have fun through playing video games." – Emily DeLossa (Woakzy's Manager)</p>
+    </div>
+  </div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-third w3-section">
+    <span class="w3-xlarge">23.1%</span><br>
+    Win Rate
+  </div>
+  <div class="w3-third w3-section">
+    <span class="w3-xlarge">3.30</span><br>
+    K/D Ratio
+  </div>
+  <div class="w3-third w3-section">
+    <span class="w3-xlarge">3,448</span><br>
+    Total Eliminations
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">Gallery</h3>
+  <p class="w3-center"><em>Here are some photos from my Twitch Streams.<br></em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="woakzykeyboard2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="keyboard2">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="woakzycelebration1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="celebration1">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="woakzypic3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic3">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="woakzypic1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic1">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="woakzycelebration2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="celebration2">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="woakzykeyboard1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="keyboard1">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="woakzypic2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic2">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="woakzypic4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic4">
+    </div>
+  </div>
+</div>
+    
+    
+<!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="w3-center">TWITCH STREAM</h3>
+        <p class="w3-center"><em>You can support me by following and subscribing to me on Twitch!</em></p><br>
+   <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!--
+      Create a Twitch.Embed object that will render
+      within the "twitch-embed" root element.
+    -->
+    <script type="text/javascript">
+      var embed = new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "woakzy",
+        layout: "video",
+        autoplay: false
+      });
+
+      embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+        var player = embed.getPlayer();
+        player.play();
+      });
+    </script>
+    </div>
+    
+    
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">Contact Me</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="woakzypc.jpg" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: woakzy.management@gmail.com<br>
+      </div>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+      
+      <a href="https://www.instagram.com/woakzy">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+      </a>
+      
+      <a href="https://www.youtube.com/channel/UCO49orpoP04G_ZYEEwVBj5Q">
+    <i class="fa fa-youtube-play w3-hover-opacity"></i>
+      </a>
+      
+      <a href="https://www.twitch.tv/woakzy">
+    <i class="fa fa-twitch w3-hover-opacity"></i>
+      </a>
+      
+      
+      <a href="https://twitter.com/woakzy">
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+      </a>
+      
+  </div>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
